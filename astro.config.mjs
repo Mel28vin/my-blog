@@ -8,7 +8,10 @@ import react from "@astrojs/react";
 import image from "@astrojs/image";
 
 // https://astro.build/config
+import tailwind from "@astrojs/tailwind";
+
+// https://astro.build/config
 export default defineConfig({
   site: "https://example.com",
-  integrations: [sitemap(), react(), image()]
+  integrations: [sitemap(), react(), image(), tailwind()]
 });
