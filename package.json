@@ -11,13 +11,18 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/mdx": "^0.11.5",
     "@astrojs/rss": "^1.0.3",
     "@astrojs/sitemap": "^1.0.0",
-    "astro": "^1.6.0"
+    "astro": "^1.6.0",
+    "typescript": "^4.8.4"
   },
   "devDependencies": {
-    "cz-conventional-changelog": "3.3.0"
+    "@typescript-eslint/parser": "^5.42.0",
+    "cz-conventional-changelog": "3.3.0",
+    "eslint": "^8.26.0",
+    "eslint-plugin-astro": "^0.21.0",
+    "prettier": "^2.7.1",
+    "prettier-plugin-astro": "^0.7.0"
   },
   "config": {
     "commitizen": {
