@@ -1,7 +1,7 @@
 ---
 import HeaderLink from "./HeaderLink.astro"
 import ThemeToggle from "./themeToggleButton"
-import { IoLogoGithub } from "react-icons/io5/index.js"
+import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io5/index.js"
 import { MdMonitor } from "react-icons/md/index.js"
 ---
 
@@ -16,11 +16,14 @@ import { MdMonitor } from "react-icons/md/index.js"
         </h2>
       </a>
       <div class="items-center gap-6 hidden md:flex">
-        <HeaderLink href="/">Home</HeaderLink>
-        <HeaderLink href="/blog">Blog</HeaderLink>
-        <HeaderLink href="/about">About</HeaderLink>
-        <HeaderLink href="https://github.com/Mel28vin/my-blog" target="_blank"
-          ><IoLogoGithub /> Source
+        <HeaderLink
+          href="https://www.linkedin.com/in/melvin-jebasamuel/"
+          target="_blank"
+        >
+          <IoLogoLinkedin /> About Me</HeaderLink
+        >
+        <HeaderLink href="https://github.com/Mel28vin/my-blog" target="_blank">
+          <IoLogoGithub /> Source
         </HeaderLink>
       </div>
       <div class="flex-1"></div>
