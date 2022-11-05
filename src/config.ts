@@ -3,3 +3,4 @@
 
 export const SITE_TITLE = "Melvin Jebasamuel's Blog"
 export const SITE_DESCRIPTION = "About my life and tech"
+export const LINKEDIN_PROFILE = "https://www.linkedin.com/in/melvin-jebasamuel/"

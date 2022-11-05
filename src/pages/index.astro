@@ -3,8 +3,10 @@ import BaseHead from "../components/BaseHead.astro"
 import Header from "../components/Header.astro"
 import Footer from "../components/Footer.astro"
 import Body from "../components/Body.astro"
-import { SITE_TITLE, SITE_DESCRIPTION } from "../config"
+import { SITE_TITLE, SITE_DESCRIPTION, LINKEDIN_PROFILE } from "../config"
 import Hero from "../components/Hero.astro"
+import Content from "../components/Content.astro"
+import { IoArrowForward } from "react-icons/io5/index.js"
 ---
 
 <!DOCTYPE html>
@@ -16,6 +18,24 @@ import Hero from "../components/Hero.astro"
     <Header title={SITE_TITLE} />
     <main class="pt-[56px]">
       <Hero />
+      <Content>
+        <section>
+          <p class="mb-8 indent-4">
+            As a motivated indie developer who likes to explore various stuff, I
+            usually stumble upon lots of great tools and ideas which boost my
+            productivity. This blog showcases my tools and techniques of success
+            along with my philosophical rants about life.
+            <a
+              class="inline-flex gap-1 indent-1 items-center text-orange-500"
+              href={LINKEDIN_PROFILE}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Learn more about me <IoArrowForward />
+            </a>
+          </p>
+        </section>
+      </Content>
     </main>
     <Footer />
   </Body>
