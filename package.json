@@ -31,7 +31,8 @@
     "eslint": "^8.26.0",
     "eslint-plugin-astro": "^0.21.0",
     "prettier": "^2.7.1",
-    "prettier-plugin-astro": "^0.7.0"
+    "prettier-plugin-astro": "^0.7.0",
+    "rehype-add-classes": "^1.0.0"
   },
   "config": {
     "commitizen": {
